@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference android:title="Default Tip Percentage"
+        android:key="defaultTip"
+        android:defaultValue="15"
+        android:inputType="number"
+        android:summary="Enter a default tip percentage."/>
+
+    <ListPreference     android:title="Default Currency"
+        android:summary="Select the default currency to use."
+        android:key="defaultCurrency"
+        android:defaultValue="1"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+
+</PreferenceScreen>
